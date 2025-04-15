@@ -38,4 +38,4 @@ git clone https://github.com/alecasaroes/music-player.git
 
 ---
 
-![App Screenshot](.music-player/_images/screenshot.png)
+![App Screenshot](https://github.com/alecasaroes/music-player/_images/screenshot.png "App Screenshot")
