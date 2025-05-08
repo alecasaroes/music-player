@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>MP3 Player</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>MP3 Player</h1>
-    <div class="controls">
-      <button id="select-music">Select Music</button>
+    <div class="container">
+        <h1>Music Player</h1>
+        <div class="controls">
+        <button id="select-music">Select songs</button>
+        </div>
+        <div class="player">
+        <div class="now-playing">
+            <p>Now playing: <span id="current-song">No song selected</span></p>
+        </div>
+        <audio id="audio-player" controls></audio>
+        <div class="control-buttons">
+            <button id="prev-button" disabled>Previous</button>
+            <button id="next-button" disabled>Next</button>
+        </div>
+        </div>
+        <div class="playlist">
+        <h2>Playlist</h2>
+        <ul id="song-list"></ul>
+        </div>
     </div>
-    <div class="player">
-      <div class="now-playing">
-        <p>Now playing: <span id="current-song">No song selected</span></p>
-      </div>
-      <audio id="audio-player" controls></audio>
-    </div>
-    <div class="playlist">
-      <h2>Playlist</h2>
-      <ul id="song-list"></ul>
-    </div>
-  </div>
-  <script src="renderer.js"></script>
+    <script src="renderer.js"></script>
 </body>
 </html>
