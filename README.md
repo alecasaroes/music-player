@@ -4,6 +4,8 @@ Project status: **Under development**
 
 This is a music player built using the Electron framework.
 
+<img width="912" alt="screenshot" src="https://github.com/user-attachments/assets/8a7f1aea-1326-4ebe-a98a-4fe6e89d530f" />
+
 ## Installation
 
 ### Requirements
@@ -11,6 +13,7 @@ This is a music player built using the Electron framework.
 - Node.js
 - npm
 - Electron
+
 
 
 Open your terminal and run the commands below to check Node and npm versions
@@ -51,6 +54,3 @@ Run the application:
 npm run start
 
 ```
-
-
-![App Screenshot](https://github.com/alecasaroes/music-player/_images/screenshot.png "App Screenshot")
