@@ -10,6 +10,7 @@ This is a music player built using the Electron framework.
 
 - Node.js
 - npm
+- Electron
 
 
 Open your terminal and run the commands below to check Node and npm versions
@@ -28,7 +29,13 @@ If you don't have any of these two installed, check how to install in the follow
 
 [npm](https://docs.npmjs.com/cli/v8/commands/npm-install)
 
+[electron](https://www.npmjs.com/package/electron)
+
 ---
+
+```
+npm install electron --save-dev
+```
 
 Clone the repository folder into your local machine:
 
@@ -37,5 +44,13 @@ git clone https://github.com/alecasaroes/music-player.git
 ```
 
 ---
+
+Run the application:
+
+```
+npm run start
+
+```
+
 
 ![App Screenshot](https://github.com/alecasaroes/music-player/_images/screenshot.png "App Screenshot")
